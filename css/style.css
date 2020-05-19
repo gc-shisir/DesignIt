@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -64,6 +65,7 @@ a:hover{
 li{
     list-style: none;
 }
+
 
 
 
@@ -187,6 +189,7 @@ li{
     margin: 60px 0;
 }
 
+
 /* Pricing Section */
 #price-section{
     height: 100vh;
@@ -278,6 +281,7 @@ h3{
     bottom: -90px !important;
 }
 
+
 #feedback-section .carousel-indicators li{
     background-color: var(--text-theme-color);
 }
@@ -340,7 +344,7 @@ h3{
 
 /* Newsletter Section */
 #newsletter-section{
-    height: 50vh;
+    height: auto;
     width: 100%;
     margin: 50px 0;
 }
@@ -399,8 +403,194 @@ li a{
     padding: -2px;
 }
 
+.copyright{
+   background: var(--third-gradient-color);
+   margin-top: 20px !important;
+}
+
+.copyright i{
+   position: absolute;
+   right: 50px;
+   color:#fff;
+}
+
+@media(max-width:500px){
+    /* Showcase section */
+    #main-showcase-section h1{
+        font-size: 30px !important;
+        padding: 15px auto;
+        max-width: 80%;
+    }
+    #main-showcase-section p{
+        font-size: 20px !important;
+        max-width: 80%;
+    }
+
+    #main-showcase-section button{
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+
+    /* Extra Showcase-section */
+    #extra-showcase-section{
+        width: 100%;
+    }
+    #extra-showcase-section p{
+        font-size: 15px !important;
+        padding: 5px auto;
+    }
+
+    /* Offer section */
+    #offer-section i{
+        padding: 0px;
+    }
+
+    #offer-section h3{
+      font-size: 20px;
+    }
+
+    #offer-section p{
+        font-size: 15px;
+    }
+
+    /* Projects section */
+    #project-section .projects h2{
+        font-size: 20px !important;
+    }
+
+    /* Price section */
+    #price-section{
+        height: auto;
+        margin: 50px auto;
+        padding:50px auto;
+    }
+
+    #price-section .card{
+        margin: 10px auto;
+    }
+
+    /* Projects section */
+    #projects-section h2{
+        font-size: 20px;
+    }
+    #projects-section p{
+        font-size: 15px;
+    }
 
 
+    /* Feedback-section */
+    #feedback-section{
+        height: auto;
+        padding: 50px auto;
+        margin-top: 50px;
+    }
+
+    /* Contact-us section */
+    #contact-us{
+        height: auto;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    /* Footer-section */
+    #footer-section{
+        height: auto !important;
+        width: 100%;
+    }
+
+    #footer-section p{
+        font-size: 15px !important;
+    }
+
+    #footer-section i{
+        background: #333;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+    #footer-column{
+       margin: 20px auto; 
+    }
+
+    #footer-section .copyright{
+        font-size: 20px;
+    }
+    
+
+   
+}
+
+@media(min-width:501px) and (max-width:768px){
+    /* Showcase section */
+    h1{
+        font-size: 50px !important;
+        text-align: center;
+    }
+    p{
+        font-size: 25px !important;
+    }
+
+
+    /* Price section */
+    #price-section{
+        height: auto;
+        margin: 50px auto;
+        padding:50px auto;
+    }
+
+    #price-section .card{
+        margin: 10px auto;
+    }
+    
+    /* Projects section */
+    #projects-section h2{
+        font-size: 30px;
+        padding: auto;
+    }
+    #projects-section p{
+        font-size: 20px;
+    }
+
+
+    /* Feedback-section */
+    #feedback-section{
+        height: auto;
+        padding: 50px auto;
+        margin-top: 50px;
+    }
+
+    /* Contact-us section */
+    #contact-us{
+        height: auto;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    /* Footer-section */
+    #footer-section{
+        height: auto !important;
+        width: 100%;
+    }
+
+    #footer-section p{
+        font-size: 18px !important;
+    }
+
+    #footer-section i{
+        background: #333;
+        padding: 5px;
+        border-radius: 2px;
+    }
+
+    #footer-column{
+       margin: 20px auto; 
+    }
+
+    #footer-section .copyright{
+        font-size: 30px;
+    }
+
+}
 
 
 
